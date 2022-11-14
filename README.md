@@ -8,7 +8,7 @@
 
 <h2>➛ Explicação do programa:</h2>
 <p>
-  Programa que solicita ao usuário 5 opções através de um menu, dentre estas opções existe uma para criar uma matriz, outra para imprimir a matriz na tela e outra para inserir dados.
+  Programa que solicita ao usuário 4 opções através de um menu, dentre estas opções existe uma para criar uma matriz, outra para imprimir a matriz na tela e outra para inserir dados.
 </p>
 
 <h2>➛ Como preparar o ambiente para inicia-lo:</h2>
@@ -17,7 +17,7 @@
   - [ ] PRONTO!
 
 <hr>
-<img align="center" height="480em" src="https://github.com/PiriDev/Temperaturas-em-C/blob/PiriProjects/conversorTemp.png">
+<img align="center" height="400em" src="https://github.com/devvmg/Grafos-em-C/blob/PiriProjects/grafos.png">
 <hr>
 <p align="center">Acesse meu site e entre em contato comigo!</p>
 <p align="center">http://devvini.com/</p>
