@@ -1,12 +1,3 @@
-/*
-Escreva um algoritmo que:
-	1) Solicite ao usuário os dados para inicializar uma Matriz de adjascencia
-	2) Implemente uma função para imprimir a Matriz
-	3) Implemente uma função para:
-		3.1) Inserir valor na Matriz
-		3.2) Alterar o valor na Matriz
-*/
-
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -23,9 +14,8 @@ int Menu()
 	printf("\n |[1] - Iniciar Matriz                | ");
 	printf("\n |[2] - Imprimir Matriz               | ");
 	printf("\n |[3] - Inserir dados a Matriz        | ");
-	printf("\n |[4] - Alterar Matriz                | ");
 	printf("\n |                                    | ");
-	printf("\n |[5] - Fechar Programa               | ");
+	printf("\n |[4] - Fechar Programa               | ");
 	printf("\n |____________________________________| ");
 	printf("\n - Sua opcao: ");
 	scanf("%d" , &menu);
@@ -67,11 +57,11 @@ void ImprimirMatriz()
 				if(coluna == 0)
 					printf(" |    ");
 				else if(coluna < 10)
-		    		printf(" 0%d " , coluna);
-		    	else
-		    		printf(" %d " , coluna);
+		    			printf(" 0%d " , coluna);
+		    		else
+		    			printf(" %d " , coluna);
 		    		
-		    printf("\n");
+		    	printf("\n");
 		}
 		if(linha < 10)
 			printf(" | 0%d " , linha);
@@ -142,13 +132,12 @@ int main ()
 				break;
 			};
 			case 4: {
+			    
 				break;
 			};
 		}
-	}while(menu != 5);
+	}while(menu != 4);
 	
 	printf("\n | - Programa finalizado...           | ");
 	printf("\n |____________________________________| ");
 }
-
-
